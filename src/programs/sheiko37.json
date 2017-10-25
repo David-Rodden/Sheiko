@@ -1,0 +1,58 @@
+[
+  {
+    "bench": [
+      {
+        "effort": 0.5,
+        "sets": 1,
+        "reps": 5
+      },
+      {
+        "effort": 0.6,
+        "sets": 2,
+        "reps": 4
+      },
+      {
+        "effort": 0.7,
+        "sets": 2,
+        "reps": 3
+      },
+      {
+        "effort": 0.75,
+        "sets": 5,
+        "reps": 3
+      },
+      {
+        "effort": 0.5,
+        "sets": 1,
+        "reps": 6
+      },
+      {
+        "effort": 0.6,
+        "sets": 2,
+        "reps": 6
+      },
+      {
+        "effort": 0.65,
+        "sets": 4,
+        "reps": 6
+      }
+    ],
+    "squat": [
+      {
+        "effort": 0.5,
+        "sets": 1,
+        "reps": 5
+      },
+      {
+        "effort": 0.6,
+        "sets": 2,
+        "reps": 5
+      },
+      {
+        "effort": 0.7,
+        "sets": 5,
+        "reps": 5
+      }
+    ]
+  }
+]
