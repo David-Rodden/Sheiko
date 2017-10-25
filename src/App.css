@@ -2,20 +2,15 @@
     text-align: center;
 }
 
-.App-logo {
-    animation: App-logo-spin infinite 20s linear;
-    height: 100px;
-}
-
 .App-world {
-    animation: App-logo-spin infinite 200s linear;
-    height: 600px;
+    animation: App-logo-spin infinite 100s linear;
+    height: 100px;
 }
 
 .App-header {
     background-color: #212226;
-    height: 20px;
-    padding: 30px;
+    height: 150px;
+    padding: 50px;
     color: white;
 }
 
@@ -25,7 +20,7 @@
 
 .App-body {
     width: auto;
-    background-color: black;
+    background-color: grey;
 }
 
 @keyframes App-logo-spin {
