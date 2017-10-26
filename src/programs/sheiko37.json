@@ -1,8 +1,5 @@
-//all days
 [
-  //day exercises
   [
-    // first exercise - bench
     {
       "exercise": "bench",
       "tasks": [
@@ -28,7 +25,6 @@
         }
       ]
     },
-    // second exercise - squat
     {
       "exercise": "squat",
       "tasks": [
@@ -49,7 +45,6 @@
         }
       ]
     },
-    // third exercise - bench
     {
       "exercise": "bench",
       "tasks": [
@@ -70,7 +65,6 @@
         }
       ]
     },
-    // fourth exercise - flat dumbbell flies
     {
       "exercise": "flat dumbbell flies",
       "tasks": [
@@ -81,9 +75,55 @@
         }
       ]
     },
-    // fifth exercise - good mornings
     {
       "exercise": "good mornings",
+      "tasks": [
+        {
+          "effort": 1,
+          "sets": 5,
+          "reps": 5
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "exercise": "deadlift",
+      "tasks": [
+        {
+          "effort": 0.5,
+          "sets": 1,
+          "reps": 5
+        },
+        {
+          "effort": 0.6,
+          "sets": 2,
+          "reps": 5
+        },
+        {
+          "effort": 0.7,
+          "sets": 2,
+          "reps": 4
+        },
+        {
+          "effort": 0.75,
+          "sets": 4,
+          "reps": 3
+        }
+      ]
+    },
+    {
+      "exercise": "incline bench",
+      "tasks": [
+        {
+          "effort": 1,
+          "sets": 6,
+          "reps": 4
+        }
+      ]
+    },
+    {
+      "exercise": "dips",
       "tasks": [
         {
           "effort": 1,
