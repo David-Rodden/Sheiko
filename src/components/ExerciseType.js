@@ -14,7 +14,7 @@ class ExerciseType extends Component {
         return (<div className="ExerciseType">
             <h3>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
             {exerciseType}
-        </div>)
+        </div>);
     }
 }
 
