@@ -1,136 +1,142 @@
 [
-  [
-    {
-      "exercise": "bench",
-      "tasks": [
-        {
-          "effort": 0.5,
-          "sets": 1,
-          "reps": 5
-        },
-        {
-          "effort": 0.6,
-          "sets": 2,
-          "reps": 4
-        },
-        {
-          "effort": 0.7,
-          "sets": 2,
-          "reps": 3
-        },
-        {
-          "effort": 0.75,
-          "sets": 5,
-          "reps": 3
-        }
-      ]
-    },
-    {
-      "exercise": "squat",
-      "tasks": [
-        {
-          "effort": 0.5,
-          "sets": 1,
-          "reps": 5
-        },
-        {
-          "effort": 0.6,
-          "sets": 2,
-          "reps": 5
-        },
-        {
-          "effort": 0.7,
-          "sets": 5,
-          "reps": 5
-        }
-      ]
-    },
-    {
-      "exercise": "bench",
-      "tasks": [
-        {
-          "effort": 0.5,
-          "sets": 1,
-          "reps": 6
-        },
-        {
-          "effort": 0.6,
-          "sets": 2,
-          "reps": 6
-        },
-        {
-          "effort": 0.65,
-          "sets": 4,
-          "reps": 6
-        }
-      ]
-    },
-    {
-      "exercise": "flat dumbbell flies",
-      "tasks": [
-        {
-          "effort": 1,
-          "sets": 5,
-          "reps": 10
-        }
-      ]
-    },
-    {
-      "exercise": "good mornings",
-      "tasks": [
-        {
-          "effort": 1,
-          "sets": 5,
-          "reps": 5
-        }
-      ]
-    }
-  ],
-  [
-    {
-      "exercise": "deadlift",
-      "tasks": [
-        {
-          "effort": 0.5,
-          "sets": 1,
-          "reps": 5
-        },
-        {
-          "effort": 0.6,
-          "sets": 2,
-          "reps": 5
-        },
-        {
-          "effort": 0.7,
-          "sets": 2,
-          "reps": 4
-        },
-        {
-          "effort": 0.75,
-          "sets": 4,
-          "reps": 3
-        }
-      ]
-    },
-    {
-      "exercise": "incline bench",
-      "tasks": [
-        {
-          "effort": 1,
-          "sets": 6,
-          "reps": 4
-        }
-      ]
-    },
-    {
-      "exercise": "dips",
-      "tasks": [
-        {
-          "effort": 1,
-          "sets": 5,
-          "reps": 5
-        }
-      ]
-    }
-  ]
+  {
+    "day": "Monday",
+    "routine": [
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.75,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      },
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 6
+          },
+          {
+            "effort": 0.65,
+            "sets": 4,
+            "reps": 6
+          }
+        ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "good mornings",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "routine": [
+      {
+        "exercise": "deadlift",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.75,
+            "sets": 4,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "incline bench",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 6,
+            "reps": 4
+          }
+        ]
+      },
+      {
+        "exercise": "dips",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      }
+    ]
+  }
 ]

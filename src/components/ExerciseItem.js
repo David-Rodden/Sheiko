@@ -4,7 +4,7 @@ class ExerciseItem extends Component {
     render() {
         return (
             <li className="Exercise">
-                {this.props.exercise.title} - {this.props.exercise.category}
+                {this.props.exercise.day} - Routine
             </li>
         )
     }

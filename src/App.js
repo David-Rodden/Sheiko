@@ -16,8 +16,7 @@ class App extends Component {
                     <h1 className="App-title">Sheiko Workout Finder</h1>
                     <img src={world} className="App-world"/>
                 </header>
-                {/*<Exercises exercises={this.sheikoData}/>*/}
-                <Exercises/>
+                <Exercises exercises={sheikoData}/>
             </div>
         );
     }
