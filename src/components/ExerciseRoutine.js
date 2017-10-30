@@ -1,18 +1,20 @@
 import React, {Component} from "react";
+import ExerciseType from "./ExerciseType";
 
 class ExerciseRoutine extends Component {
     render() {
         let exerciseRoutine;
         if (this.props.exerciseDay.routine) {
-            console.log(this.props.exerciseDay.day);
             exerciseRoutine = this.props.exerciseDay.routine.map(routine => {
-                console.log(routine);
+                return <ExerciseType key={routine.exercise} routine={routine}/>
             });
         }
         return (
-            <li className="ExerciseRoutine">
-                {this.props.exerciseDay.day} - Routine
-            </li>
+            <div className="ExerciseRoutine">
+                <strong>{this.props.exerciseDay.day}</strong>
+                {exerciseRoutine}
+                <br/>
+            </div>
         )
     }
 
