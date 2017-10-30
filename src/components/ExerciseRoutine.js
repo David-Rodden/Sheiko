@@ -5,13 +5,14 @@ class ExerciseRoutine extends Component {
     render() {
         let exerciseRoutine;
         if (this.props.exerciseDay.routine) {
+            let routineKey = 0;
             exerciseRoutine = this.props.exerciseDay.routine.map(routine => {
-                return <ExerciseType key={routine.exercise} routine={routine}/>
+                return <ExerciseType key={routine.exercise + routineKey++} routine={routine}/>
             });
         }
         return (
             <div className="ExerciseRoutine">
-                <strong>{this.props.exerciseDay.day}</strong>
+                <h2>{this.props.exerciseDay.day}</h2>
                 {exerciseRoutine}
                 <br/>
             </div>
