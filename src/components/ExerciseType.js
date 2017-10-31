@@ -34,8 +34,9 @@ class ExerciseType extends Component {
             <h3>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
             <div>
                 {exerciseType}
-                <img src={determineImage(this.props.routine.exercise)} alt=""/>
             </div>
+            <img src={determineImage(this.props.routine.exercise)} alt=""
+                 data-tip={this.props.routine.exercise}/>
         </div>);
     }
 }

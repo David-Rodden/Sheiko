@@ -15,7 +15,7 @@ class ExerciseRoutine extends Component {
         };
         return (
             <div className="ExerciseRoutine" style={style}>
-                <h2>{this.props.exerciseDay.day}</h2>
+                <h2>{this.props.exerciseDay.day} - {this.props.exerciseDay.routine.length} exercises</h2>
                 <hr/>
                 {exerciseRoutine}
                 <br/>
