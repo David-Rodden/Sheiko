@@ -136,6 +136,51 @@
             "reps": 5
           }
         ]
+      },
+      {
+        "exercise": "deadlift from boxes",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.75,
+            "sets": 4,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "scissor squat",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      },
+      {
+        "exercise": "abs",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 3,
+            "reps": 10
+          }
+        ]
       }
     ]
   }

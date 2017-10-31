@@ -1,5 +1,10 @@
 import React, {Component} from 'react';
 import ExerciseTask from "./ExerciseTask";
+import benchpress from '../img/benchpress.png';
+import squat from '../img/squat.png';
+import flies from '../img/flies.png';
+import abs from '../img/abs.png';
+import other from '../img/other.png';
 
 class ExerciseType extends Component {
 
@@ -20,9 +25,17 @@ class ExerciseType extends Component {
             marginBottom: "2%",
             display: "auto"
         };
+
+        function determineImage(exercise) {
+            return exercise.includes("bench") ? benchpress : exercise.includes("squat") ? squat : exercise.includes("flies") ? flies : exercise.includes("abs") ? abs : other;
+        }
+
         return (<div className="ExerciseType" style={style}>
             <h3>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
-            {exerciseType}
+            <div>
+                {exerciseType}
+                <img src={determineImage(this.props.routine.exercise)} alt=""/>
+            </div>
         </div>);
     }
 }
