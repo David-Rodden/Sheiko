@@ -11,7 +11,16 @@ class ExerciseType extends Component {
                 return <ExerciseTask key={taskKey++} task={task}/>
             });
         }
-        return (<div className="ExerciseType">
+        const style = {
+            textAlign: "center",
+            marginLeft: "20%",
+            marginRight: "40%",
+            border: "1px solid grey",
+            borderRadius: "15px",
+            marginBottom: "2%",
+            display: "auto"
+        };
+        return (<div className="ExerciseType" style={style}>
             <h3>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
             {exerciseType}
         </div>);

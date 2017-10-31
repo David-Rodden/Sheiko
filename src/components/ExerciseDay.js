@@ -9,8 +9,11 @@ class ExerciseDay extends Component {
                 return (<ExerciseItem key={exerciseDay.day} exerciseDay={exerciseDay}/>);
             });
         }
+        const style = {
+            textAlign: "left"
+        };
         return (
-            <div className="ExerciseDay">
+            <div className="ExerciseDay" style={style}>
                 {exerciseRoutines}
             </div>
         );

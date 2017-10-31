@@ -10,9 +10,13 @@ class ExerciseRoutine extends Component {
                 return <ExerciseType key={routine.exercise + routineKey++} routine={routine}/>
             });
         }
+        const style = {
+            marginLeft: "15%"
+        };
         return (
-            <div className="ExerciseRoutine">
+            <div className="ExerciseRoutine" style={style}>
                 <h2>{this.props.exerciseDay.day}</h2>
+                <hr/>
                 {exerciseRoutine}
                 <br/>
             </div>
