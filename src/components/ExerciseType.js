@@ -22,8 +22,7 @@ class ExerciseType extends Component {
             marginRight: "40%",
             border: "1px solid grey",
             borderRadius: "15px",
-            marginBottom: "2%",
-            display: "auto"
+            marginBottom: "2%"
         };
 
         function determineImage(exercise) {
@@ -31,7 +30,7 @@ class ExerciseType extends Component {
         }
 
         return (<div className="ExerciseType" style={style}>
-            <h3>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
+            <h3 style={{fontFamily: "Arima Madurai, cursive", fontSize: 23}}>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
             <div>
                 {exerciseType}
             </div>

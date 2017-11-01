@@ -13,7 +13,7 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="App-title">Sheiko Workout Finder</h1>
+                    <h1 className="App-title" style={{fontFamily: "Comfortaa, cursive", fontSize: 35}}>Sheiko Workout Finder</h1>
                     <img src={world} className="App-world"/>
                 </header>
                 <Exercises exerciseDays={sheikoData}/>

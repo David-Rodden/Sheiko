@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import ExerciseType from "./ExerciseType";
+import other from "../img/other.png";
 
 class ExerciseRoutine extends Component {
     render() {
@@ -15,7 +16,7 @@ class ExerciseRoutine extends Component {
         };
         return (
             <div className="ExerciseRoutine" style={style}>
-                <h2>{this.props.exerciseDay.day} - {this.props.exerciseDay.routine.length} exercises</h2>
+                <h2 style={{fontFamily: "Arima Madurai, cursive", fontSize: 30}}>{this.props.exerciseDay.day} - {this.props.exerciseDay.routine.length} exercises</h2>
                 <hr/>
                 {exerciseRoutine}
                 <br/>

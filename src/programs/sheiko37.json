@@ -183,5 +183,70 @@
         ]
       }
     ]
+  },
+  {
+    "day": "Friday",
+    "routine": [
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 7
+          },
+          {
+            "effort": 0.55,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.65,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.75,
+            "sets": 2,
+            "reps": 2
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.65,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.55,
+            "sets": 1,
+            "reps": 8
+          },
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 10
+          }
+        ]
+      }
+    ]
   }
 ]
