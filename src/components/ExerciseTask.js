@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import ReactToolTip from 'react-tooltip'
-import itim from '../App.css'
 
 class ExerciseTask extends Component {
     render() {

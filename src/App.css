@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Comfortaa|Itim');
+
 .App {
     text-align: center;
 }
@@ -22,6 +23,16 @@
 .App-body {
     width: auto;
     background-color: grey;
+}
+
+.ExerciseType:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#exercise-picture {
+    float: right;
 }
 
 @keyframes App-logo-spin {

@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import ExerciseType from "./ExerciseType";
-import other from "../img/other.png";
 
 class ExerciseRoutine extends Component {
     render() {
