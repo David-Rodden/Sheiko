@@ -246,7 +246,67 @@
             "reps": 10
           }
         ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.75,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "french press",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "seated good mornings",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
       }
+    ]
+  },
+  {
+    "day": "Monday",
+    "routine": [
     ]
   }
 ]

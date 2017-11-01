@@ -9,10 +9,9 @@ class ExerciseTask extends Component {
             marginBottom: "1%",
             fontFamily: "Itim, cursive"
         };
-
+        const effort = this.props.task.effort !== 1 ? Math.round(this.props.task.effort * 100) + "%" : "a comfortable";
         return (<li className="ExerciseTask" style={style}>
-            {this.props.task.sets} Sets of {this.props.task.reps} reps at {Math.round(this.props.task.effort * 100)}%
-            effort
+            {this.props.task.sets} Sets of {this.props.task.reps} reps at {effort} effort
             &nbsp;&nbsp;&nbsp;<input type="checkbox" data-tip="Done"/>
             <ReactToolTip/>
         </li>);
