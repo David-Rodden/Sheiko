@@ -963,5 +963,120 @@
         ]
       }
     ]
+  },
+  {
+    "day": "Week 4: Monday",
+    "routine": [
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 5,
+            "reps": 3
+          },
+          {
+            "effort": 0.85,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "dips",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 8
+          }
+        ]
+      },
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 2,
+            "reps": 4
+          }
+        ]
+      },
+      {
+        "exercise": "good mornings",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -13,10 +13,11 @@ class App extends Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1 className="App-title" style={{fontFamily: "Comfortaa, cursive", fontSize: 35}}>Sheiko Workout
-                        Finder</h1>
+                    <h1 className="App-title" style={{fontFamily: "Comfortaa, cursive", fontSize: 35}}>
+                        Sheiko Workout Finder
+                    </h1>
                 </header>
-                <Exercises exerciseDays={sheikoData}/>
+                <body><Exercises exerciseDays={sheikoData}/></body>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
                         Created by David Rodden -&nbsp;

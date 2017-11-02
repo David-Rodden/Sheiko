@@ -23,7 +23,7 @@ class ExerciseType extends Component {
             marginRight: "40%",
             border: "2px solid grey",
             borderRadius: "15px",
-            marginBottom: "2%",
+            marginBottom: "2%"
         };
 
         function determineImage(exercise) {
