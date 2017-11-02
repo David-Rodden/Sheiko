@@ -623,5 +623,345 @@
         ]
       }
     ]
+  },
+  {
+    "day": "Week 3: Monday",
+    "routine": [
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 5,
+            "reps": 3
+          }
+        ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "weighted push ups",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      },
+      {
+        "exercise": "good mornings",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Week 3: Wednesday",
+    "routine": [
+      {
+        "exercise": "deadlift to knees",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.75,
+            "sets": 4,
+            "reps": 4
+          }
+        ]
+      },
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 4
+          },
+          {
+            "effort": 0.75,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 2,
+            "reps": 2
+          },
+          {
+            "effort": 0.75,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.7,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.65,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.55,
+            "sets": 1,
+            "reps": 7
+          },
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 8
+          }
+        ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "deadlift from boxes",
+        "tasks": [
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 5
+          },
+          {
+            "effort": 0.8,
+            "sets": 4,
+            "reps": 4
+          }
+        ]
+      },
+      {
+        "exercise": "scissor squat",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      },
+      {
+        "exercise": "abs",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 3,
+            "reps": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "day": "Week 3: Friday",
+    "routine": [
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 4
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 3
+          },
+          {
+            "effort": 0.8,
+            "sets": 5,
+            "reps": 2
+          }
+        ]
+      },
+      {
+        "exercise": "squat",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.6,
+            "sets": 1,
+            "reps": 5
+          },
+          {
+            "effort": 0.7,
+            "sets": 2,
+            "reps": 5
+          },
+          {
+            "effort": 0.75,
+            "sets": 5,
+            "reps": 4
+          }
+        ]
+      },
+      {
+        "exercise": "bench",
+        "tasks": [
+          {
+            "effort": 0.5,
+            "sets": 1,
+            "reps": 6
+          },
+          {
+            "effort": 0.6,
+            "sets": 2,
+            "reps": 6
+          },
+          {
+            "effort": 0.65,
+            "sets": 4,
+            "reps": 6
+          }
+        ]
+      },
+      {
+        "exercise": "flat dumbbell flies",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 10
+          }
+        ]
+      },
+      {
+        "exercise": "good mornings",
+        "tasks": [
+          {
+            "effort": 1,
+            "sets": 5,
+            "reps": 5
+          }
+        ]
+      }
+    ]
   }
 ]
