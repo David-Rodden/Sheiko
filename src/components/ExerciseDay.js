@@ -10,8 +10,9 @@ class ExerciseDay extends Component {
             });
         }
         const style = {
-            textAlign: "left"
-        };
+            textAlign: "left",
+            background: "#f2f6ff"
+        }
         return (
             <div className="ExerciseDay" style={style}>
                 {exerciseRoutines}
