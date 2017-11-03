@@ -13,9 +13,11 @@ class ExerciseRoutine extends Component {
         const style = {
             marginLeft: "15%"
         };
+
         return (
             <div className="ExerciseRoutine" style={style}>
-                <h2 style={{fontFamily: "Arima Madurai, cursive", fontSize: 30}}>{this.props.exerciseDay.day} - {this.props.exerciseDay.routine.length} exercises</h2>
+                <h2 style={{fontFamily: "Arima Madurai, cursive", fontSize: 30}}>{this.props.exerciseDay.day}
+                    - {this.props.exerciseDay.routine.length} exercises</h2>
                 <hr/>
                 {exerciseRoutine}
                 <br/>
