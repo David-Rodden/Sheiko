@@ -1,0 +1,1338 @@
+[
+    {
+        "day": "Week 1: Monday",
+        "routine": [
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.85
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "2,4,6,8,7,5,3",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "6",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "6",
+                        "effort": 0.65
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "4",
+                        "effort": 0.65
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (standing)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 1: Wednesday",
+        "routine": [
+            {
+                "exercise": "Deadlift up to knees",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "4",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "1",
+                        "effort": 0.85
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "8",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "10",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "12",
+                        "effort": 0.5
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Deadlift from boxes",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.9
+                    }
+                ]
+            },
+            {
+                "exercise": "Lunge",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "3",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 1: Friday",
+        "routine": [
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "2",
+                        "effort": 0.85
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "6",
+                        "reps": "2",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Dip",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "6"
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "4",
+                        "effort": 0.75
+                    }
+                ]
+            },
+            {
+                "exercise": "French press",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (sitting)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 2: Monday",
+        "routine": [
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "1",
+                        "effort": 0.9
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "2",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "5",
+                        "effort": 0.75
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Leg press",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "6"
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (standing)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 2: Wednesday",
+        "routine": [
+            {
+                "exercise": "Deficit deadlift",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "3",
+                        "effort": 0.65
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "1",
+                        "effort": 0.85
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "7",
+                        "effort": 0.55
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Deadlift",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.85
+                    }
+                ]
+            },
+            {
+                "exercise": "Lunge",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "4",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 2: Friday",
+        "routine": [
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.85
+                    }
+                ]
+            },
+            {
+                "exercise": "Incline Bench press",
+                "tasks": [
+                    {
+                        "sets": "6",
+                        "reps": "4"
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "6",
+                        "effort": 0.65
+                    }
+                ]
+            },
+            {
+                "exercise": "Triceps",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Back extension",
+                "tasks": [
+                    {
+                        "sets": "4",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 3: Monday",
+        "routine": [
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "3",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5,8,3,6,2,7,4",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "5",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Lunge",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (standing)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 3: Wednesday",
+        "routine": [
+            {
+                "exercise": "Deadlift up to knees",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "8",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "7",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "1",
+                        "effort": 0.85
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.75
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "6",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "8",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "10",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "12",
+                        "effort": 0.5
+                    }
+                ]
+            },
+            {
+                "exercise": "Deadlift from boxes",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "2",
+                        "effort": 0.9
+                    }
+                ]
+            },
+            {
+                "exercise": "Leg press",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "3",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 3: Friday",
+        "routine": [
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "6",
+                        "reps": "3",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "2",
+                        "effort": 0.85
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "3",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "5",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (sitting)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 4: Monday",
+        "routine": [
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "1",
+                        "effort": 0.9
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "2",
+                        "effort": 0.85
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Dip",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Lunge",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Back extension",
+                "tasks": [
+                    {
+                        "sets": "4",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 4: Wednesday",
+        "routine": [
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "3",
+                        "reps": "1",
+                        "effort": 0.9
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Deadlift",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "3",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "2",
+                        "effort": 0.8
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "1",
+                        "effort": 0.9
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Leg press",
+                "tasks": [
+                    {
+                        "sets": "6",
+                        "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "3",
+                        "reps": "10"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Week 4: Friday",
+        "routine": [
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "4",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "2",
+                        "reps": "3",
+                        "effort": 0.7
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "3",
+                        "effort": 0.8
+                    }
+                ]
+            },
+            {
+                "exercise": "Bench press",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.55
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.65
+                    },
+                    {
+                        "sets": "5",
+                        "reps": "4",
+                        "effort": 0.75
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
+                    }
+                ]
+            },
+            {
+                "exercise": "Dip",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.5
+                    },
+                    {
+                        "sets": "1",
+                        "reps": "5",
+                        "effort": 0.6
+                    },
+                    {
+                        "sets": "4",
+                        "reps": "5",
+                        "effort": 0.7
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (sitting)",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "5"
+                    }
+                ]
+            }
+        ]
+    }
+]

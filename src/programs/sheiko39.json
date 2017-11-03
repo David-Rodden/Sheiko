@@ -12,7 +12,7 @@
                     },
                     {
                         "effort": 0.6,
-                        "sets": "1",
+                        "sets": "2",
                         "reps": "4"
                     },
                     {
@@ -22,7 +22,7 @@
                     },
                     {
                         "effort": 0.75,
-                        "sets": "4",
+                        "sets": "5",
                         "reps": "3"
                     }
                 ]
@@ -48,31 +48,20 @@
                 ]
             },
             {
+                "exercise": "Dumbbell press",
+                "tasks": [
+                    {
+                        "sets": "6",
+                        "reps": "6"
+                    }
+                ]
+            },
+            {
                 "exercise": "Dumbbell fly",
                 "tasks": [
                     {
                         "sets": "5",
                         "reps": "10"
-                    }
-                ]
-            },
-            {
-                "exercise": "Bench press",
-                "tasks": [
-                    {
-                        "effort": 0.55,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.65,
-                        "sets": "2",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "5",
-                        "reps": "4"
                     }
                 ]
             },
@@ -91,22 +80,22 @@
         "day": "Week 1: Wednesday",
         "routine": [
             {
-                "exercise": "Deadlift",
+                "exercise": "Deadlift up to knees",
                 "tasks": [
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "5"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.6,
-                        "sets": "2",
-                        "reps": "5"
+                        "sets": "1",
+                        "reps": "3"
                     },
                     {
                         "effort": 0.7,
                         "sets": "2",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.75,
@@ -137,24 +126,24 @@
                 "exercise": "Deadlift from boxes",
                 "tasks": [
                     {
-                        "effort": 0.5,
+                        "effort": 0.55,
                         "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.6,
-                        "sets": "2",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "2",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.8,
-                        "sets": "4",
+                        "effort": 0.65,
+                        "sets": "1",
+                        "reps": "4"
+                    },
+                    {
+                        "effort": 0.75,
+                        "sets": "2",
                         "reps": "3"
+                    },
+                    {
+                        "effort": 0.85,
+                        "sets": "4",
+                        "reps": "2"
                     }
                 ]
             },
@@ -162,7 +151,7 @@
                 "exercise": "Lunge",
                 "tasks": [
                     {
-                        "sets": "5",
+                        "sets": "6",
                         "reps": "5"
                     }
                 ]
@@ -187,7 +176,7 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "6"
+                        "reps": "5"
                     },
                     {
                         "effort": 0.6,
@@ -196,7 +185,7 @@
                     },
                     {
                         "effort": 0.7,
-                        "sets": "2",
+                        "sets": "1",
                         "reps": "4"
                     },
                     {
@@ -210,29 +199,24 @@
                         "reps": "2"
                     },
                     {
-                        "effort": 0.85,
-                        "sets": "2",
-                        "reps": "1"
-                    },
-                    {
-                        "effort": 0.8,
-                        "sets": "2",
-                        "reps": "2"
-                    },
-                    {
                         "effort": 0.75,
                         "sets": "2",
                         "reps": "3"
                     },
                     {
-                        "effort": 0.65,
+                        "effort": 0.7,
                         "sets": "1",
-                        "reps": "5"
+                        "reps": "4"
                     },
                     {
-                        "effort": 0.55,
+                        "effort": 0.6,
                         "sets": "1",
-                        "reps": "7"
+                        "reps": "6"
+                    },
+                    {
+                        "effort": 0.5,
+                        "sets": "1",
+                        "reps": "8"
                     }
                 ]
             },
@@ -255,7 +239,7 @@
                     },
                     {
                         "effort": 0.6,
-                        "sets": "2",
+                        "sets": "1",
                         "reps": "4"
                     },
                     {
@@ -271,7 +255,7 @@
                 ]
             },
             {
-                "exercise": "French press",
+                "exercise": "Triceps",
                 "tasks": [
                     {
                         "sets": "5",
@@ -297,17 +281,17 @@
                 "exercise": "Squat",
                 "tasks": [
                     {
-                        "effort": 0.55,
+                        "effort": 0.5,
                         "sets": "1",
                         "reps": "5"
                     },
                     {
-                        "effort": 0.65,
-                        "sets": "2",
+                        "effort": 0.6,
+                        "sets": "1",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.75,
+                        "effort": 0.7,
                         "sets": "2",
                         "reps": "3"
                     },
@@ -339,7 +323,7 @@
                     {
                         "effort": 0.8,
                         "sets": "6",
-                        "reps": "2"
+                        "reps": "3"
                     }
                 ]
             },
@@ -362,20 +346,20 @@
                 ]
             },
             {
-                "exercise": "Squat",
+                "exercise": "Front squat",
                 "tasks": [
                     {
+                        "effort": 0.4,
+                        "sets": "2",
+                        "reps": "4"
+                    },
+                    {
+                        "effort": 0.5,
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
                         "effort": 0.55,
-                        "sets": "1",
-                        "reps": "3"
-                    },
-                    {
-                        "effort": 0.65,
-                        "sets": "1",
-                        "reps": "3"
-                    },
-                    {
-                        "effort": 0.75,
                         "sets": "4",
                         "reps": "3"
                     }
@@ -401,17 +385,22 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.6,
-                        "sets": "2",
-                        "reps": "4"
+                        "sets": "1",
+                        "reps": "3"
                     },
                     {
                         "effort": 0.7,
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
+                        "effort": 0.75,
                         "sets": "4",
-                        "reps": "4"
+                        "reps": "2"
                     }
                 ]
             },
@@ -419,19 +408,19 @@
                 "exercise": "Bench press",
                 "tasks": [
                     {
-                        "effort": 0.55,
+                        "effort": 0.5,
                         "sets": "1",
-                        "reps": "5"
+                        "reps": "6"
+                    },
+                    {
+                        "effort": 0.6,
+                        "sets": "2",
+                        "reps": "6"
                     },
                     {
                         "effort": 0.65,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "5",
-                        "reps": "4"
+                        "sets": "4",
+                        "reps": "6"
                     }
                 ]
             },
@@ -445,7 +434,7 @@
                 ]
             },
             {
-                "exercise": "Deadlift",
+                "exercise": "Deadlift from boxes",
                 "tasks": [
                     {
                         "effort": 0.5,
@@ -460,21 +449,30 @@
                     {
                         "effort": 0.7,
                         "sets": "2",
-                        "reps": "3"
+                        "reps": "4"
                     },
                     {
-                        "effort": 0.8,
-                        "sets": "5",
-                        "reps": "3"
+                        "effort": 0.75,
+                        "sets": "4",
+                        "reps": "4"
                     }
                 ]
             },
             {
-                "exercise": "Lunge",
+                "exercise": "Barbell row",
                 "tasks": [
                     {
                         "sets": "5",
-                        "reps": "5"
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "4",
+                        "reps": "10"
                     }
                 ]
             }
@@ -489,7 +487,7 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "5"
                     },
                     {
                         "effort": 0.6,
@@ -502,9 +500,9 @@
                         "reps": "3"
                     },
                     {
-                        "effort": 0.75,
-                        "sets": "6",
-                        "reps": "3"
+                        "effort": 0.8,
+                        "sets": "5",
+                        "reps": "2"
                     }
                 ]
             },
@@ -514,21 +512,16 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "6"
+                        "reps": "5"
                     },
                     {
                         "effort": 0.6,
                         "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "1",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.75,
-                        "sets": "3",
+                        "effort": 0.7,
+                        "sets": "2",
                         "reps": "3"
                     },
                     {
@@ -542,29 +535,28 @@
                         "reps": "1"
                     },
                     {
-                        "effort": 0.8,
-                        "sets": "2",
-                        "reps": "2"
-                    },
-                    {
                         "effort": 0.75,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
-                        "effort": 0.7,
+                        "effort": 0.65,
                         "sets": "1",
                         "reps": "5"
                     },
                     {
-                        "effort": 0.6,
-                        "sets": "1",
-                        "reps": "6"
-                    },
-                    {
-                        "effort": 0.5,
+                        "effort": 0.55,
                         "sets": "1",
                         "reps": "7"
+                    }
+                ]
+            },
+            {
+                "exercise": "Dumbbell fly",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "10"
                     }
                 ]
             },
@@ -572,34 +564,37 @@
                 "exercise": "Squat",
                 "tasks": [
                     {
-                        "effort": 0.55,
+                        "effort": 0.5,
                         "sets": "1",
-                        "reps": "3"
+                        "reps": "5"
                     },
                     {
-                        "effort": 0.65,
+                        "effort": 0.6,
                         "sets": "1",
-                        "reps": "3"
+                        "reps": "5"
                     },
                     {
-                        "effort": 0.75,
+                        "effort": 0.7,
                         "sets": "4",
-                        "reps": "2"
+                        "reps": "4"
                     }
                 ]
             },
             {
-                "exercise": "Good morning (sitting)",
+                "exercise": "Back extension",
                 "tasks": [
                     {
                         "sets": "5",
-                        "reps": "6"
-                    },
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Dip",
+                "tasks": [
                     {
-                        "sets": "10"
-                    },
-                    {
-                        "sets": "10"
+                        "sets": "5",
+                        "reps": "5"
                     }
                 ]
             }
@@ -612,24 +607,24 @@
                 "exercise": "Squat",
                 "tasks": [
                     {
-                        "effort": 0.5,
+                        "effort": 0.55,
                         "sets": "1",
                         "reps": "5"
                     },
                     {
-                        "effort": 0.6,
-                        "sets": "2",
+                        "effort": 0.65,
+                        "sets": "1",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.7,
+                        "effort": 0.75,
                         "sets": "2",
                         "reps": "3"
                     },
                     {
-                        "effort": 0.8,
+                        "effort": 0.85,
                         "sets": "5",
-                        "reps": "3"
+                        "reps": "2"
                     }
                 ]
             },
@@ -668,7 +663,7 @@
                 ]
             },
             {
-                "exercise": "Push up",
+                "exercise": "Push up (wide grip)",
                 "tasks": [
                     {
                         "sets": "5",
@@ -677,31 +672,20 @@
                 ]
             },
             {
-                "exercise": "Squat",
+                "exercise": "Pistol squat",
                 "tasks": [
                     {
-                        "effort": 0.5,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.6,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
                         "sets": "5",
                         "reps": "5"
                     }
                 ]
             },
             {
-                "exercise": "Abs",
+                "exercise": "Good morning (standing)",
                 "tasks": [
                     {
-                        "sets": "3",
-                        "reps": "10"
+                        "sets": "5",
+                        "reps": "5"
                     }
                 ]
             }
@@ -711,27 +695,22 @@
         "day": "Week 3: Wednesday",
         "routine": [
             {
-                "exercise": "Deadlift up to knees",
+                "exercise": "Deficit deadlift",
                 "tasks": [
                     {
                         "effort": 0.5,
-                        "sets": "1",
-                        "reps": "4"
+                        "sets": "2",
+                        "reps": "3"
                     },
                     {
                         "effort": 0.6,
-                        "sets": "1",
-                        "reps": "4"
-                    },
-                    {
-                        "effort": 0.7,
                         "sets": "2",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
-                        "effort": 0.75,
+                        "effort": 0.65,
                         "sets": "4",
-                        "reps": "4"
+                        "reps": "2"
                     }
                 ]
             },
@@ -741,57 +720,32 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "6"
+                        "reps": "5"
                     },
                     {
                         "effort": 0.6,
                         "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "2",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.75,
+                        "effort": 0.7,
                         "sets": "2",
                         "reps": "3"
                     },
                     {
                         "effort": 0.8,
                         "sets": "2",
-                        "reps": "2"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.85,
                         "sets": "2",
-                        "reps": "1"
+                        "reps": "2"
                     },
                     {
                         "effort": 0.8,
                         "sets": "2",
-                        "reps": "2"
-                    },
-                    {
-                        "effort": 0.75,
-                        "sets": "2",
                         "reps": "3"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "1",
-                        "reps": "4"
-                    },
-                    {
-                        "effort": 0.65,
-                        "sets": "1",
-                        "reps": "6"
-                    },
-                    {
-                        "effort": 0.55,
-                        "sets": "1",
-                        "reps": "7"
                     }
                 ]
             },
@@ -810,17 +764,22 @@
                     {
                         "effort": 0.6,
                         "sets": "1",
-                        "reps": "5"
+                        "reps": "4"
                     },
                     {
                         "effort": 0.7,
-                        "sets": "2",
-                        "reps": "5"
+                        "sets": "1",
+                        "reps": "4"
                     },
                     {
                         "effort": 0.8,
-                        "sets": "4",
-                        "reps": "4"
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
+                        "effort": 0.9,
+                        "sets": "3",
+                        "reps": "2"
                     }
                 ]
             },
@@ -837,7 +796,7 @@
                 "exercise": "Abs",
                 "tasks": [
                     {
-                        "sets": "3",
+                        "sets": "4",
                         "reps": "10"
                     }
                 ]
@@ -847,6 +806,31 @@
     {
         "day": "Week 3: Friday",
         "routine": [
+            {
+                "exercise": "Squat",
+                "tasks": [
+                    {
+                        "effort": 0.5,
+                        "sets": "1",
+                        "reps": "5"
+                    },
+                    {
+                        "effort": 0.6,
+                        "sets": "1",
+                        "reps": "4"
+                    },
+                    {
+                        "effort": 0.7,
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
+                        "effort": 0.8,
+                        "sets": "6",
+                        "reps": "3"
+                    }
+                ]
+            },
             {
                 "exercise": "Bench press",
                 "tasks": [
@@ -873,51 +857,6 @@
                 ]
             },
             {
-                "exercise": "Squat",
-                "tasks": [
-                    {
-                        "effort": 0.5,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.6,
-                        "sets": "1",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.7,
-                        "sets": "2",
-                        "reps": "5"
-                    },
-                    {
-                        "effort": 0.75,
-                        "sets": "5",
-                        "reps": "4"
-                    }
-                ]
-            },
-            {
-                "exercise": "Bench press",
-                "tasks": [
-                    {
-                        "effort": 0.5,
-                        "sets": "1",
-                        "reps": "6"
-                    },
-                    {
-                        "effort": 0.6,
-                        "sets": "2",
-                        "reps": "6"
-                    },
-                    {
-                        "effort": 0.65,
-                        "sets": "4",
-                        "reps": "6"
-                    }
-                ]
-            },
-            {
                 "exercise": "Dumbbell fly",
                 "tasks": [
                     {
@@ -927,7 +866,25 @@
                 ]
             },
             {
-                "exercise": "Good morning (standing)",
+                "exercise": "Press",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "4"
+                    }
+                ]
+            },
+            {
+                "exercise": "Pull-up/Chin-up",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Good morning (sitting)",
                 "tasks": [
                     {
                         "sets": "5",
@@ -960,13 +917,8 @@
                     },
                     {
                         "effort": 0.8,
-                        "sets": "2",
+                        "sets": "5",
                         "reps": "3"
-                    },
-                    {
-                        "effort": 0.9,
-                        "sets": "3",
-                        "reps": "1"
                     }
                 ]
             },
@@ -974,24 +926,19 @@
                 "exercise": "Bench press",
                 "tasks": [
                     {
-                        "effort": 0.5,
+                        "effort": 0.55,
                         "sets": "1",
                         "reps": "5"
                     },
                     {
-                        "effort": 0.6,
+                        "effort": 0.65,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "5"
                     },
                     {
-                        "effort": 0.7,
-                        "sets": "2",
-                        "reps": "3"
-                    },
-                    {
-                        "effort": 0.8,
+                        "effort": 0.75,
                         "sets": "5",
-                        "reps": "3"
+                        "reps": "4"
                     }
                 ]
             },
@@ -1014,36 +961,31 @@
                 ]
             },
             {
-                "exercise": "Squat",
+                "exercise": "Front squat",
                 "tasks": [
                     {
-                        "effort": 0.5,
-                        "sets": "1",
+                        "effort": 0.4,
+                        "sets": "2",
                         "reps": "5"
                     },
                     {
-                        "effort": 0.6,
-                        "sets": "1",
+                        "effort": 0.5,
+                        "sets": "2",
                         "reps": "4"
                     },
                     {
-                        "effort": 0.7,
-                        "sets": "2",
+                        "effort": 0.6,
+                        "sets": "3",
                         "reps": "3"
-                    },
-                    {
-                        "effort": 0.8,
-                        "sets": "4",
-                        "reps": "2"
                     }
                 ]
             },
             {
-                "exercise": "Good morning (standing)",
+                "exercise": "Back extension",
                 "tasks": [
                     {
                         "sets": "5",
-                        "reps": "5"
+                        "reps": "10"
                     }
                 ]
             }
@@ -1076,9 +1018,9 @@
                         "reps": "3"
                     },
                     {
-                        "effort": 0.9,
+                        "effort": 0.85,
                         "sets": "3",
-                        "reps": "1"
+                        "reps": "2"
                     }
                 ]
             },
@@ -1088,12 +1030,12 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.6,
                         "sets": "1",
-                        "reps": "4"
+                        "reps": "3"
                     },
                     {
                         "effort": 0.7,
@@ -1109,6 +1051,11 @@
                         "effort": 0.85,
                         "sets": "3",
                         "reps": "2"
+                    },
+                    {
+                        "effort": 0.8,
+                        "sets": "2",
+                        "reps": "3"
                     }
                 ]
             },
@@ -1128,25 +1075,25 @@
                     {
                         "effort": 0.7,
                         "sets": "4",
-                        "reps": "4"
-                    }
-                ]
-            },
-            {
-                "exercise": "Dumbbell fly",
-                "tasks": [
-                    {
-                        "sets": "5",
-                        "reps": "10"
-                    }
-                ]
-            },
-            {
-                "exercise": "Lunge",
-                "tasks": [
-                    {
-                        "sets": "5",
                         "reps": "5"
+                    }
+                ]
+            },
+            {
+                "exercise": "Pull-up/Chin-up",
+                "tasks": [
+                    {
+                        "sets": "5",
+                        "reps": "8"
+                    }
+                ]
+            },
+            {
+                "exercise": "Abs",
+                "tasks": [
+                    {
+                        "sets": "4",
+                        "reps": "10"
                     }
                 ]
             }
@@ -1186,7 +1133,7 @@
                     {
                         "effort": 0.5,
                         "sets": "1",
-                        "reps": "5"
+                        "reps": "6"
                     },
                     {
                         "effort": 0.6,
@@ -1195,8 +1142,38 @@
                     },
                     {
                         "effort": 0.7,
-                        "sets": "5",
-                        "reps": "5"
+                        "sets": "2",
+                        "reps": "4"
+                    },
+                    {
+                        "effort": 0.8,
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
+                        "effort": 0.85,
+                        "sets": "2",
+                        "reps": "2"
+                    },
+                    {
+                        "effort": 0.8,
+                        "sets": "2",
+                        "reps": "3"
+                    },
+                    {
+                        "effort": 0.7,
+                        "sets": "1",
+                        "reps": "4"
+                    },
+                    {
+                        "effort": 0.6,
+                        "sets": "1",
+                        "reps": "6"
+                    },
+                    {
+                        "effort": 0.5,
+                        "sets": "1",
+                        "reps": "8"
                     }
                 ]
             },
@@ -1224,15 +1201,6 @@
                     {
                         "sets": "5",
                         "reps": "5"
-                    }
-                ]
-            },
-            {
-                "exercise": "Abs",
-                "tasks": [
-                    {
-                        "sets": "3",
-                        "reps": "10"
                     }
                 ]
             }
