@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import sheikoData from './programs/sheiko37.json';
+import sheikoData from './programs/Sheiko31.json';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
 
