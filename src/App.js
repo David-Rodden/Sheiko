@@ -17,10 +17,10 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
-                <body><Exercises exerciseDays={sheikoData}/></body>
+                <Exercises exerciseDays={sheikoData}/>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
-                        Created by David Rodden -&nbsp;
+                        Created by David gRodden -&nbsp;
                         <a href="https://github.com/David-Rodden/Sheiko">GitHub</a>
                     </p>
                 </footer>
