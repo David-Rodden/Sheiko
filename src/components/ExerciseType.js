@@ -58,7 +58,7 @@ class ExerciseType extends Component {
         };
 
         function determineImage(exercise) {
-            return exercise.includes("bench") ? benchpress : exercise.includes("squat") ? squat : exercise.includes("flies") ? flies : exercise.includes("abs") ? abs : exercise.includes("push up") ? pushup : other;
+            return exercise.includes("Bench") ? benchpress : exercise.includes("Squat") ? squat : exercise.includes("Fly") ? flies : exercise.includes("Abs") ? abs : exercise.includes("Push up") ? pushup : other;
         }
 
         return (<div className="ExerciseType" style={style}>
