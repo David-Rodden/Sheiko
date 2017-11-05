@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import sheikoData from './programs/Sheiko31.json';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
+import Questionnaire from 'survey-react';
 
 /**
  * Serves as the base of the Sheiko App.
@@ -18,6 +19,7 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
+                <div id="surveyElement"> Elements</div>
                 <Exercises exerciseDays={sheikoData}/>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
@@ -26,7 +28,8 @@ class App extends Component {
                     </p>
                 </footer>
             </div>
-        );
+        )
+            ;
     }
 }
 

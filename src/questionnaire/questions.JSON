@@ -1,0 +1,59 @@
+{
+ "pages": [
+  {
+   "elements": [
+    {
+     "type": "checkbox",
+     "choices": [
+      "No",
+      "Yes, once",
+      "Yes, on multiple occasions"
+     ],
+     "colCount": 3,
+     "isRequired": true,
+     "name": "question2",
+     "title": "Have you ever run a Sheiko program?"
+    }
+   ],
+   "name": "page1"
+  },
+  {
+   "elements": [
+    {
+     "type": "text",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "What is your 1RM bench press?",
+     "placeHolder": "135"
+    },
+    {
+     "type": "text",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "What is your 1RM squat?",
+     "placeHolder": "135"
+    },
+    {
+     "type": "text",
+     "inputType": "number",
+     "isRequired": true,
+     "name": "What is your 1RM deadlift?",
+     "placeHolder": "135"
+    }
+   ],
+   "name": "page2"
+  },
+  {
+   "elements": [
+    {
+     "type": "rating",
+     "isRequired": true,
+     "maxRateDescription": "More confident",
+     "minRateDescription": "Less confident",
+     "name": "How confident are you with your 1RM inputs?"
+    }
+   ],
+   "name": "page3"
+  }
+ ]
+}
