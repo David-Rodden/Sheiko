@@ -8,7 +8,6 @@ import Exercises from "./components/ExerciseDay";
  * Currently displays the Sheiko37 program info along with a graphic depicting each exercise
  */
 class App extends Component {
-
     render() {
         return (
             <div className="App">
