@@ -5,10 +5,20 @@ import questions from "../questionnaire/questions.json"
 //import 'survey-react/survey.css';
 
 class MySurvey extends Component {
+
+    constructor(props) {
+        super(props);
+        Survey.Survey.cssType = 'bootstrap';
+        Survey.defaultBootstrapCss.navigationButton = 'btn btn-green';
+    }
+
     render() {
         const model = new Survey.Model(questions);
+        model.onComplete.add(function (result) {
+            console.log("survey complete");
+        });
         return (
-            <div className="surveyjs">
+            <div className="Survey">
                 <Survey.Survey model={model}/>
             </div>
         );
