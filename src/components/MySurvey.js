@@ -16,8 +16,9 @@ class MySurvey extends Component {
         const model = new Survey.Model(questions);
         model.onComplete.add(function (result) {
             const data = result.data;
-            localStorage["experience"] = "placeholder";
-
+            console.log(data);
+            localStorage["experience"] = "intermediate";
+            window.location.reload();
         });
         return (
             <div className="Survey">

@@ -2,10 +2,18 @@ import React, {Component} from 'react';
 import ExerciseItem from './ExerciseRoutine';
 
 class ExerciseDay extends Component {
+    constructor() {
+        super();
+        const experience = localStorage["experience"];
+        const numeric = experience === "beginner" ? "29" : experience === "intermediate" ? "30" : "31";
+        this.sheikoData = require("../programs/Sheiko" + numeric + ".json");
+        console.log("Sheiko" + numeric + " loaded");
+    }
+
     render() {
         let exerciseRoutines;
-        if (this.props.exerciseDays) {
-            exerciseRoutines = this.props.exerciseDays.map(exerciseDay => {
+        if (this.sheikoData) {
+            exerciseRoutines = this.sheikoData.map(exerciseDay => {
                 return (<ExerciseItem key={exerciseDay.day} exerciseDay={exerciseDay}/>);
             });
         }

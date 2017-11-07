@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import sheikoData from './programs/Sheiko31.json';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
 import MySurvey from "./components/MySurvey";
@@ -21,11 +20,11 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
-                <ToggleDisplay show={!surveyCompleted}>
+                <ToggleDisplay show={!surveyCompleted} tag="section">
                     <MySurvey/>
                 </ToggleDisplay>
                 <ToggleDisplay show={surveyCompleted !== null}>
-                    <Exercises exerciseDays={sheikoData}/>
+                    <Exercises/>
                 </ToggleDisplay>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
