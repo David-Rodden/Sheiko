@@ -3,7 +3,7 @@ import sheikoData from './programs/Sheiko31.json';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
 import MySurvey from "./components/MySurvey";
-import questions from './questionnaire/questions.json';
+import ToggleDisplay from 'react-toggle-display';
 
 /**
  * Serves as the base of the Sheiko App.
@@ -13,6 +13,7 @@ import questions from './questionnaire/questions.json';
  */
 class App extends Component {
     render() {
+        const surveyCompleted = localStorage.getItem("experience");
         return (
             <div className="App">
                 <header className="App-header">
@@ -20,8 +21,12 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
-                {localStorage.getItem("experience") === null ? <MySurvey/> : null}
-                <Exercises exerciseDays={sheikoData}/>
+                <ToggleDisplay show={!surveyCompleted}>
+                    <MySurvey/>
+                </ToggleDisplay>
+                <ToggleDisplay show={surveyCompleted !== null}>
+                    <Exercises exerciseDays={sheikoData}/>
+                </ToggleDisplay>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
                         Created by David Rodden -&nbsp;
