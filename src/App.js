@@ -2,8 +2,8 @@ import React, {Component} from 'react';
 import sheikoData from './programs/Sheiko31.json';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
-import Questionnaire, {Survey} from 'survey-react';
-import questions from './questionnaire/questions.JSON';
+import MySurvey from "./components/MySurvey";
+import questions from './questionnaire/questions.json';
 
 /**
  * Serves as the base of the Sheiko App.
@@ -20,8 +20,7 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
-                {/*attempting to implement survey-react example through Component*/}
-                <Survey.SurveyWindow json={questions}/>
+                <MySurvey />
                 <Exercises exerciseDays={sheikoData}/>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
