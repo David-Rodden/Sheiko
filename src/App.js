@@ -20,7 +20,7 @@ class App extends Component {
                         Sheiko Workout Finder
                     </h1>
                 </header>
-                <MySurvey />
+                {localStorage.getItem("experience") === null ? <MySurvey/> : null}
                 <Exercises exerciseDays={sheikoData}/>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>
                     <p>
