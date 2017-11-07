@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import * as Survey from 'survey-react';
 import questions from "../questionnaire/questions.json"
 
-//import 'survey-react/survey.css';
+import 'survey-react/survey.css'
 
 class MySurvey extends Component {
 

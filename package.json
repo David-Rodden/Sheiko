@@ -8,6 +8,7 @@
     "react-dom": "^16.0.0",
     "react-google-charts": "^1.5.5",
     "react-scripts": "^1.0.14",
+    "react-select": "^1.0.0-rc.10",
     "react-toggle-display": "^2.2.0",
     "react-tooltip": "^3.4.0",
     "survey-react": "^0.12.36"

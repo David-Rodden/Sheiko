@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import Exercises from "./components/ExerciseDay";
 import MySurvey from "./components/MySurvey";
+import ExerciseSelector from "./components/ExerciseSelector";
 import ToggleDisplay from 'react-toggle-display';
 
 /**
@@ -24,6 +25,7 @@ class App extends Component {
                     <MySurvey/>
                 </ToggleDisplay>
                 <ToggleDisplay show={surveyCompleted !== null}>
+                    <ExerciseSelector/>
                     <Exercises/>
                 </ToggleDisplay>
                 <footer style={{fontFamily: "Comfortaa, cursive", fontSize: 20}}>

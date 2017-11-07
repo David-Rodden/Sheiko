@@ -5,9 +5,9 @@ class ExerciseDay extends Component {
     constructor() {
         super();
         const experience = localStorage["experience"];
-        const numeric = experience === "beginner" ? "29" : experience === "intermediate" ? "30" : "31";
-        this.sheikoData = require("../programs/Sheiko" + numeric + ".json");
-        console.log("Sheiko" + numeric + " loaded");
+        const pageChosen = sessionStorage.getItem("page");
+        this.numeric = pageChosen ? sessionStorage["page"] : experience === "beginner" ? "29" : experience === "intermediate" ? "30" : "31";
+        this.sheikoData = require("../programs/Sheiko" + this.numeric + ".json");
     }
 
     render() {
@@ -23,6 +23,7 @@ class ExerciseDay extends Component {
         };
         return (
             <div className="ExerciseDay" style={style}>
+                <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
                 {exerciseRoutines}
             </div>
         );
