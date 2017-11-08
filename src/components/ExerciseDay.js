@@ -25,7 +25,7 @@ export default class ExerciseDay extends Component {
         return (
             <div className="ExerciseDay" style={style}>
                 <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
-                <ProgressionChart/>
+                <ProgressionChart data={this.sheikoData}/>
                 {exerciseRoutines}
             </div>
         );
