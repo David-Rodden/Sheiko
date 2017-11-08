@@ -16,18 +16,10 @@ body {
     float: right;
 }
 
-.ExerciseType {
-    transition: transform 200ms ease-in-out;
-}
-
 .ExerciseType:after {
     content: "";
     display: table;
     clear: both;
-}
-
-.ExerciseType:active {
-    -webkit-transform: translate(-50%)
 }
 
 .btn-green {
