@@ -9,7 +9,7 @@ import other from '../img/other.png';
 
 import {Chart} from "react-google-charts";
 
-class ExerciseType extends Component {
+export default class ExerciseType extends Component {
 
     constructor(props) {
         super(props);
@@ -82,5 +82,3 @@ class ExerciseType extends Component {
         </div>);
     }
 }
-
-export default ExerciseType;

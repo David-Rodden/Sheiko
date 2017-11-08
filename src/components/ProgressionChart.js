@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import Chart from 'react-google-charts';
 
-class ProgressionChart extends Component {
+export default class ProgressionChart extends Component {
     constructor() {
         super();
         this.randomList = [["Set", "Effort"]];
-        for (let i = 0; i < 100; i++) {
+        for (let i = 0; i < 100; i++)
             this.randomList.push([i, Math.random() * 10]);
-        }
     }
 
     render() {
@@ -26,5 +25,3 @@ class ProgressionChart extends Component {
         );
     }
 }
-
-export default ProgressionChart;

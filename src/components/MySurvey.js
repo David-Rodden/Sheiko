@@ -4,7 +4,7 @@ import questions from "../questionnaire/questions.json"
 
 import 'survey-react/survey.css'
 
-class MySurvey extends Component {
+export default class MySurvey extends Component {
 
     constructor(props) {
         super(props);
@@ -27,5 +27,3 @@ class MySurvey extends Component {
         );
     }
 }
-
-export default MySurvey;

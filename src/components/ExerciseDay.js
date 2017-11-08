@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ExerciseItem from './ExerciseRoutine';
 import ProgressionChart from "./ProgressionChart";
 
-class ExerciseDay extends Component {
+export default class ExerciseDay extends Component {
     constructor() {
         super();
         const experience = localStorage["experience"];
@@ -31,5 +31,3 @@ class ExerciseDay extends Component {
         );
     }
 }
-
-export default ExerciseDay;

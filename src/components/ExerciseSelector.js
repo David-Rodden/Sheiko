@@ -3,7 +3,7 @@ import Select from 'react-select';
 import 'react-select/dist/react-select.css';
 import selection from "../programs/SheikoSelector.json";
 
-class ExerciseSelector extends Component {
+export default class ExerciseSelector extends Component {
     render() {
         function logChange(val) {
             sessionStorage["page"] = val.value;
@@ -17,5 +17,3 @@ class ExerciseSelector extends Component {
         );
     }
 }
-
-export default ExerciseSelector;

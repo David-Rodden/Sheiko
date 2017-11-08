@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import ReactToolTip from 'react-tooltip'
 
-class ExerciseTask extends Component {
+export default class ExerciseTask extends Component {
     render() {
         const style = {
             textAlign: "center",
@@ -15,5 +15,3 @@ class ExerciseTask extends Component {
         </li>);
     }
 }
-
-export default ExerciseTask;
