@@ -66,7 +66,7 @@ class ExerciseType extends Component {
                 fontFamily: "Arima Madurai, cursive",
                 fontSize: 23
             }}>{this.props.routine.exercise.charAt(0).toUpperCase() + this.props.routine.exercise.slice(1)}</h3>
-            <div style={{float: "left"}}>
+            <div style={{float: "left", whiteSpace: "nowrap"}}>
                 {exerciseType}
             </div>
             <img id="exercise-picture" src={determineImage(this.props.routine.exercise)} alt=""

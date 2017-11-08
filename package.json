@@ -6,9 +6,12 @@
     "isomorphic-fetch": "^2.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "^1.0.14",
     "react-google-charts": "^1.5.5",
-    "react-tooltip": "^3.4.0"
+    "react-scripts": "^1.0.17",
+    "react-select": "^1.0.0-rc.10",
+    "react-toggle-display": "^2.2.0",
+    "react-tooltip": "^3.4.0",
+    "survey-react": "^0.12.36"
   },
   "scripts": {
     "start": "react-scripts start",

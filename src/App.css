@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Comfortaa|Itim');
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Comfortaa|Itim|Spectral+SC:500');
 
 .App-header, footer {
     background-color: #212226;
@@ -15,14 +15,35 @@ body {
 #exercise-picture {
     float: right;
 }
-.ExerciseType{
+
+.ExerciseType {
     transition: transform 200ms ease-in-out;
 }
+
 .ExerciseType:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .ExerciseType:active {
     -webkit-transform: translate(-50%)
+}
+
+.btn-green {
+    background-color: #1ab394;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn-green:hover, .btn-green:focus {
+    background-color: #18a689;
+    color: #fff;
+}
+
+.panel-footer {
+    padding: 0 15px;
+    border: none;
+    text-align: center;
+    background-color: #fff;
 }
