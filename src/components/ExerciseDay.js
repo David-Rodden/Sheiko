@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import ExerciseItem from './ExerciseRoutine';
+import ProgressionChart from "./ProgressionChart";
 
 class ExerciseDay extends Component {
     constructor() {
@@ -24,6 +25,7 @@ class ExerciseDay extends Component {
         return (
             <div className="ExerciseDay" style={style}>
                 <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
+                <ProgressionChart/>
                 {exerciseRoutines}
             </div>
         );
