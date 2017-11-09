@@ -19,9 +19,18 @@ export default class ProgressionChart extends Component {
         this.chartEvent = {
             eventName: 'select',
             callback(Chart) {
+                const exerciseTasks = $(".ExerciseTask");
+                exerciseTasks.css("border", "");
+                const chartSelection = Chart.chart.getSelection()[0];
+                if (!chartSelection) return;
+                const selected = exerciseTasks.eq(chartSelection["row"]);
                 $("html, body").animate({
-                    scrollTop: $(".ExerciseTask").eq(Chart.chart.getSelection()[0]["row"]).offset().top
+                    scrollTop: selected.offset().top
                 }, "slow");
+                selected.css({
+                    "border": "2px solid blue",
+                    "border-radius": "5px"
+                });
             }
         };
     }
