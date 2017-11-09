@@ -12,7 +12,7 @@ export default class ProgressionChart extends Component {
             datapoint.routine.forEach(routine => {
                 this.exerciseSets.push(routine.tasks.length);
                 routine.tasks.forEach(task => {
-                    this.chartData.push([globalSet++, task.effort]);
+                    this.chartData.push([globalSet++, task.effort !== 0 ? task.effort : 0.4]);
                 });
             });
         });
