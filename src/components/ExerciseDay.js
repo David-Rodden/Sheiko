@@ -18,12 +18,8 @@ export default class ExerciseDay extends Component {
                 return (<ExerciseItem key={exerciseDay.day} exerciseDay={exerciseDay}/>);
             });
         }
-        const style = {
-            textAlign: "left",
-            background: "#f2f6ff"
-        };
         return (
-            <div className="ExerciseDay" style={style}>
+            <div className="ExerciseDay">
                 <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
                 <ProgressionChart data={this.sheikoData}/>
                 {exerciseRoutines}

@@ -16,20 +16,12 @@ export default class ExerciseType extends Component {
                 return <ExerciseTask key={taskKey++} task={task}/>
             });
         }
-        const style = {
-            textAlign: "center",
-            marginLeft: "20%",
-            marginRight: "40%",
-            border: "2px solid grey",
-            borderRadius: "15px",
-            marginBottom: "2%"
-        };
 
         function determineImage(exercise) {
             return exercise.includes("Bench") ? benchpress : exercise.includes("Squat") ? squat : exercise.includes("Fly") ? flies : exercise.includes("Abs") ? abs : exercise.includes("Push up") ? pushup : other;
         }
 
-        return (<div className="ExerciseType" style={style}>
+        return (<div className="ExerciseType">
             <h3 style={{
                 fontFamily: "Arima Madurai, cursive",
                 fontSize: 23
@@ -39,14 +31,6 @@ export default class ExerciseType extends Component {
             </div>
             <img id="exercise-picture" src={determineImage(this.props.routine.exercise)} alt=""
                  data-tip={this.props.routine.exercise}/>
-            {/*<Chart*/}
-            {/*chartType="ScatterChart"*/}
-            {/*data={this.state.data}*/}
-            {/*options={this.state.options}*/}
-            {/*graph_id="ExerciseChart"*/}
-            {/*width="100%"*/}
-            {/*height="400px"*/}
-            {/*/>*/}
         </div>);
     }
 }

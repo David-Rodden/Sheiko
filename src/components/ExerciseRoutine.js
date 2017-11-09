@@ -10,12 +10,8 @@ export default class ExerciseRoutine extends Component {
                 return <ExerciseType key={routine.exercise + routineKey++} routine={routine}/>
             });
         }
-        const style = {
-            marginLeft: "15%"
-        };
-
         return (
-            <div className="ExerciseRoutine" style={style}>
+            <div className="ExerciseRoutine" style={{marginLeft: "15%"}}>
                 <h2 style={{fontFamily: "Arima Madurai, cursive", fontSize: 30}}>{this.props.exerciseDay.day}
                     - {this.props.exerciseDay.routine.length} exercises</h2>
                 <hr/>

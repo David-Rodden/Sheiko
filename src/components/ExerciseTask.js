@@ -3,13 +3,8 @@ import ReactToolTip from 'react-tooltip'
 
 export default class ExerciseTask extends Component {
     render() {
-        const style = {
-            textAlign: "center",
-            marginBottom: "1%",
-            fontFamily: "Itim, cursive"
-        };
         const effort = this.props.task.effort !== 0 ? Math.round(this.props.task.effort * 100) + "%" : "a comfortable";
-        return (<li className="ExerciseTask" style={style}>
+        return (<li className="ExerciseTask">
             {this.props.task.sets} Sets of {this.props.task.reps} reps at {effort} effort
             <ReactToolTip/>
         </li>);

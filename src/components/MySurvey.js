@@ -6,8 +6,8 @@ import 'survey-react/survey.css'
 
 export default class MySurvey extends Component {
 
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         Survey.Survey.cssType = 'bootstrap';
         Survey.defaultBootstrapCss.navigationButton = 'btn btn-green';
     }
