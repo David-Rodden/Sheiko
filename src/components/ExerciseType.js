@@ -7,39 +7,7 @@ import abs from '../img/abs.png';
 import pushup from '../img/pushup.png';
 import other from '../img/other.png';
 
-import {Chart} from "react-google-charts";
-
 export default class ExerciseType extends Component {
-
-    constructor(props) {
-        super(props);
-
-        function getGraphData() {
-            let graphData = [["Iteration", "Effort"]], index = 1;
-            props.routine.forEach(ex => {
-                const currentTask = ex.props.task;
-                graphData.push([index++, currentTask["effort"]]);
-            });
-            return graphData;
-        }
-
-        this.state = {
-            options: {
-                hAxis: {title: "Iteration", minValue: 0, maxValue: 6},
-                vAxis: {title: "Effort", minValue: 0, maxValue: 1}
-            },
-            data: [
-                ['Age', 'Weight'],
-                [8, 12],
-                [4, 5.5],
-                [11, 14],
-                [4, 5],
-                [3, 3.5],
-                [6.5, 7],
-            ]
-        };
-    }
-
     render() {
         let exerciseType;
         if (this.props.routine.tasks) {
@@ -72,12 +40,12 @@ export default class ExerciseType extends Component {
             <img id="exercise-picture" src={determineImage(this.props.routine.exercise)} alt=""
                  data-tip={this.props.routine.exercise}/>
             {/*<Chart*/}
-                {/*chartType="ScatterChart"*/}
-                {/*data={this.state.data}*/}
-                {/*options={this.state.options}*/}
-                {/*graph_id="ExerciseChart"*/}
-                {/*width="100%"*/}
-                {/*height="400px"*/}
+            {/*chartType="ScatterChart"*/}
+            {/*data={this.state.data}*/}
+            {/*options={this.state.options}*/}
+            {/*graph_id="ExerciseChart"*/}
+            {/*width="100%"*/}
+            {/*height="400px"*/}
             {/*/>*/}
         </div>);
     }
