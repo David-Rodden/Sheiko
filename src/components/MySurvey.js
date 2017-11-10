@@ -15,8 +15,7 @@ export default class MySurvey extends Component {
     render() {
         const model = new Survey.Model(questions);
         model.onComplete.add(function (result) {
-            const data = result.data;
-            console.log(data);
+            // const data = result.data;
             localStorage["experience"] = "intermediate";
             window.location.reload();
         });

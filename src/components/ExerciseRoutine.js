@@ -1,8 +1,14 @@
 import React, {Component} from "react";
 import ExerciseType from "./ExerciseType";
-import $ from 'jquery';
+import show from '../img/show.png';
+import hide from '../img/hide.png';
 
 export default class ExerciseRoutine extends Component {
+    constructor() {
+        super();
+        this.state = {showExerciseType: true};
+    }
+
     render() {
         let exerciseRoutine;
         if (this.props.exerciseDay.routine) {
@@ -10,10 +16,6 @@ export default class ExerciseRoutine extends Component {
             exerciseRoutine = this.props.exerciseDay.routine.map(routine => {
                 return <ExerciseType key={routine.exercise + routineKey++} routine={routine}/>
             });
-        }
-
-        function hideRoutine(val) {
-            console.log(val);
         }
 
         return (
@@ -26,10 +28,12 @@ export default class ExerciseRoutine extends Component {
                     }}>{this.props.exerciseDay.day}
                         - {this.props.exerciseDay.routine.length} exercises</h2>
                     &nbsp;&nbsp;&nbsp;
-                    <input type="button" value="hide" style={{fontFamily: "Itim, cursive", display: "inline", opacity: 0.7}} onClick={hideRoutine(this)}/>
+                    <img src={this.state.showExerciseType ? hide : show}
+                         style={{width: this.state.showExerciseType? "2%": "2%", transform: "translateY(22%)"}} alt=""
+                         onClick={() => this.setState({showExerciseType: !this.state.showExerciseType})}/>
                 </div>
                 <hr/>
-                {exerciseRoutine}
+                {this.state.showExerciseType ? exerciseRoutine : null}
                 <br/>
             </div>
         )
