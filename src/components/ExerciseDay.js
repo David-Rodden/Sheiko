@@ -7,7 +7,7 @@ export default class ExerciseDay extends Component {
         super();
         const experience = localStorage["experience"];
         const pageChosen = sessionStorage.getItem("page");
-        this.numeric = pageChosen ? sessionStorage["page"] : experience === "beginner" ? "29" : experience === "intermediate" ? "30" : "31";
+        this.numeric = pageChosen ? sessionStorage["page"] : experience === "No" ? "29" : experience === "Yes, once" ? "30" : "31";
         this.sheikoData = require("../programs/Sheiko" + this.numeric + ".json");
     }
 

@@ -15,8 +15,12 @@ export default class MySurvey extends Component {
     render() {
         const model = new Survey.Model(questions);
         model.onComplete.add(function (result) {
-            // const data = result.data;
-            localStorage["experience"] = "intermediate";
+            const data = result.data;
+            localStorage["experience"] = data["question2"][0];
+            localStorage["bench"] = data["What is your 1RM bench press?"];
+            localStorage["squat"] = data["What is your 1RM squat?"];
+            localStorage["deadlift"] = data["What is your 1RM deadlift?"];
+            localStorage["confidence"] = data["How confident are you with your 1RM inputs?"];
             window.location.reload();
         });
         return (
