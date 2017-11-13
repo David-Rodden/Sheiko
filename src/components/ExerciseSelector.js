@@ -12,8 +12,8 @@ export default class ExerciseSelector extends Component {
 
         return (
             <Select name="exercise-selector" value="Current" clearValueText="yes"
-                    options={selection} onChange={logChange} autofocus={true} placeholder="Click here to search Sheiko program..."/>
-
+                    options={selection} onChange={logChange} autofocus={true}
+                    placeholder="Click here to search Sheiko program..."/>
         );
     }
 }

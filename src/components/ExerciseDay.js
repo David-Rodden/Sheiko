@@ -7,7 +7,7 @@ import surveyHelpText from '../questionnaire/chart-help.json';
 export default class ExerciseDay extends Component {
     constructor() {
         super();
-        this.state = {help: false};
+        this.state = {help: false, visibility: true};
         const experience = localStorage["experience"];
         const pageChosen = sessionStorage.getItem("page");
         this.numeric = pageChosen ? sessionStorage["page"] : experience === "No" ? "29" : experience === "Yes, once" ? "30" : "31";
@@ -26,9 +26,14 @@ export default class ExerciseDay extends Component {
                 <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
                 <ProgressionChart data={this.sheikoData}/>
                 <div className="Survey-help" style={{marginLeft: "5%"}}>
-                    <img src={surveyHelp} style={{width: "2%", float: "left", borderRadius: "5px", background: "lightgreen"}}
+                    <img src={surveyHelp}
+                         style={{width: "2%", float: "left", borderRadius: "5px", background: "lightgreen"}}
                          onClick={() => this.setState({help: !this.state.help})}/>
-                    <p style={{marginLeft: "5%", fontFamily: "Itim, cursive", fontSize: 22}}>{this.state.help ? surveyHelpText.text : null}</p>
+                    <p style={{
+                        marginLeft: "5%",
+                        fontFamily: "Itim, cursive",
+                        fontSize: 22
+                    }}>{this.state.help ? surveyHelpText.text : null}</p>
                 </div>
                 {exerciseRoutines}
             </div>

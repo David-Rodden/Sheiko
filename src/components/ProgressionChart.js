@@ -5,14 +5,16 @@ import $ from 'jquery';
 export default class ProgressionChart extends Component {
     constructor(props) {
         super(props);
-        this.chartData = [["Global Set", "Effort"]];
+        this.chartData = [["Global Set", "Bench", "Squat", "Deadlift"]];
         this.exerciseSets = [];
         let globalSet = 0;
         this.props.data.forEach(datapoint => {
             datapoint.routine.forEach(routine => {
-                this.exerciseSets.push(routine.tasks.length);
+                const exerciseName = routine.exercise;
                 routine.tasks.forEach(task => {
-                    this.chartData.push([globalSet += task.sets, task.effort !== 0 ? task.effort : 0.4]);
+                    const effort = task.effort;
+                    console.log(effort);
+                    this.chartData.push([globalSet += task.sets, exerciseName.includes("Bench") ? effort : 0, exerciseName.includes("Squat") ? effort : 0, exerciseName.includes("Deadlift") ? effort : 0]);
                 });
             });
         });
@@ -39,10 +41,16 @@ export default class ProgressionChart extends Component {
         return (
             <div className={'my-pretty-chart-container'}>
                 <Chart.Chart
-                    chartType="LineChart"
+                    chartType="AreaChart"
                     data={this.chartData}
-                    options={{curveType: "function", vAxis: {title: "Effort (% of 1RM)"}, hAxis: {title: "Global Set"}}}
-                    graph_id="LineChart"
+                    options={{
+                        curveType: "function", vAxis: {title: "Effort (% of 1RM)"}, hAxis: {title: "Global Set"},
+                        explorer: {
+                            axis: "horizontal", actions: ['dragToZoom', 'rightClickToReset'], keepInBounds: true,
+                            maxZoomIn: 4.0
+                        }
+                    }}
+                    graph_id="AreaChart"
                     width="100%"
                     height="200px"
                     chartEvents={[this.chartEvent]}
