@@ -30,7 +30,7 @@ export default class ExerciseType extends Component {
                 {exerciseType}
             </div>
             <img id="exercise-picture" src={determineImage(this.props.routine.exercise)}
-                 data-tip={this.props.routine.exercise}/>
+                 data-tip={this.props.routine.exercise} alt=""/>
         </div>);
     }
 }

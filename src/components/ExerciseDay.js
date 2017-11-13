@@ -3,7 +3,7 @@ import ExerciseItem from './ExerciseRoutine';
 import ProgressionChart from "./ProgressionChart";
 import surveyHelp from '../img/chart-help.png';
 import surveyHelpText from '../questionnaire/chart-help.json';
-import $ from 'jquery';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 export default class ExerciseDay extends Component {
     constructor() {
@@ -28,16 +28,19 @@ export default class ExerciseDay extends Component {
                     Sheiko {!this.numeric.includes('-') ? '#' : null}{this.numeric}</div>
                 <ProgressionChart data={this.sheikoData}/>
                 <div className="Survey-help" style={{marginLeft: "5%"}}>
-                    <img id="help-button" src={surveyHelp}
+                    <img id="help-button" src={surveyHelp} alt=""
                          style={{width: "2%", float: "left", borderRadius: "5px", background: "lightgreen"}}
                          onClick={() => {
                              this.setState({help: !this.state.help})
                          }}/>
-                    <p style={{
-                        marginLeft: "5%",
-                        fontFamily: "Itim, cursive",
-                        fontSize: 22
-                    }}>{this.state.help ? surveyHelpText.text : null}</p>
+                    <ReactCSSTransitionGroup transitionName="fade" transitionEnterTimeout={300}
+                                             transitionLeaveTimeout={500}>
+                        <p style={{
+                            marginLeft: "5%",
+                            fontFamily: "Itim, cursive",
+                            fontSize: 22
+                        }}>{this.state.help ? surveyHelpText.text : null}</p>
+                    </ReactCSSTransitionGroup>
                 </div>
                 {exerciseRoutines}
             </div>

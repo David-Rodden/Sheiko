@@ -6,6 +6,7 @@
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
     "react": "^16.0.0",
+    "react-addons-css-transition-group": "^15.6.2",
     "react-dom": "^16.0.0",
     "react-google-charts": "^1.5.5",
     "react-scripts": "^1.0.17",
