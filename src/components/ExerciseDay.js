@@ -3,6 +3,7 @@ import ExerciseItem from './ExerciseRoutine';
 import ProgressionChart from "./ProgressionChart";
 import surveyHelp from '../img/chart-help.png';
 import surveyHelpText from '../questionnaire/chart-help.json';
+import $ from 'jquery';
 
 export default class ExerciseDay extends Component {
     constructor() {
@@ -24,12 +25,14 @@ export default class ExerciseDay extends Component {
         return (
             <div className="ExerciseDay">
                 <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>
-                    Sheiko {!this.numeric.includes('-') ? '#': null}{this.numeric}</div>
+                    Sheiko {!this.numeric.includes('-') ? '#' : null}{this.numeric}</div>
                 <ProgressionChart data={this.sheikoData}/>
                 <div className="Survey-help" style={{marginLeft: "5%"}}>
-                    <img src={surveyHelp}
+                    <img id="help-button" src={surveyHelp}
                          style={{width: "2%", float: "left", borderRadius: "5px", background: "lightgreen"}}
-                         onClick={() => this.setState({help: !this.state.help})}/>
+                         onClick={() => {
+                             this.setState({help: !this.state.help})
+                         }}/>
                     <p style={{
                         marginLeft: "5%",
                         fontFamily: "Itim, cursive",

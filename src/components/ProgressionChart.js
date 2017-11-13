@@ -6,14 +6,12 @@ export default class ProgressionChart extends Component {
     constructor(props) {
         super(props);
         this.chartData = [["Global Set", "Bench", "Squat", "Deadlift"]];
-        this.exerciseSets = [];
         let globalSet = 0;
         this.props.data.forEach(datapoint => {
             datapoint.routine.forEach(routine => {
                 const exerciseName = routine.exercise;
                 routine.tasks.forEach(task => {
                     const effort = task.effort;
-                    console.log(effort);
                     this.chartData.push([globalSet += task.sets, exerciseName.includes("Bench") ? effort : 0, exerciseName.includes("Squat") ? effort : 0, exerciseName.includes("Deadlift") ? effort : 0]);
                 });
             });

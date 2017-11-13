@@ -21,7 +21,7 @@ export default class ExerciseType extends Component {
             return exercise.includes("Bench") ? benchpress : exercise.includes("Squat") ? squat : exercise.includes("Fly") ? flies : exercise.includes("Abs") ? abs : exercise.includes("Push up") ? pushup : other;
         }
 
-        return (<div className="ExerciseType">
+        return (<div className="ExerciseType" style={{backgroundColor: "#f9fbff"}}>
             <h3 style={{
                 fontFamily: "Arima Madurai, cursive",
                 fontSize: 23
@@ -29,7 +29,7 @@ export default class ExerciseType extends Component {
             <div style={{float: "left", whiteSpace: "nowrap"}}>
                 {exerciseType}
             </div>
-            <img id="exercise-picture" src={determineImage(this.props.routine.exercise)} alt=""
+            <img id="exercise-picture" src={determineImage(this.props.routine.exercise)}
                  data-tip={this.props.routine.exercise}/>
         </div>);
     }
