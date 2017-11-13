@@ -23,7 +23,8 @@ export default class ExerciseDay extends Component {
         }
         return (
             <div className="ExerciseDay">
-                <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>Sheiko #{this.numeric}</div>
+                <div style={{textAlign: "center", fontFamily: "Spectral SC", fontSize: 60}}>
+                    Sheiko {!this.numeric.includes('-') ? '#': null}{this.numeric}</div>
                 <ProgressionChart data={this.sheikoData}/>
                 <div className="Survey-help" style={{marginLeft: "5%"}}>
                     <img src={surveyHelp}

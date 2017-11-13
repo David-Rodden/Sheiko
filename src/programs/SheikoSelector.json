@@ -26,5 +26,17 @@
   {
     "value": "40",
     "label": "Sheiko #40"
+  },
+  {
+    "value": "CMS-PREP1",
+    "label": "Sheiko Competition Prep #1"
+  },
+  {
+    "value": "CMS-PREP2",
+    "label": "Sheiko Competition Prep #2"
+  },
+  {
+    "value": "CMS-PREP3",
+    "label": "Sheiko Competition Prep #3"
   }
 ]
