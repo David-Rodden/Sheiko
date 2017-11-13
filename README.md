@@ -17,7 +17,12 @@ Below is an example of the first question of the three-question survey.
 
 ![](survey-example.png)
 
-The exercises are displayed as a chronologically exhaustive list, delimited by the day on which they should be performed.
+A search bar is provided to search any program contained within the Sheiko program suite.
+Directly underneath, a chart overview of the selected program is displayed.
+The horizontal axis represents the collective sets of all exercises.
+The vertical axis represents the effort exerted with respect to the exercise performed.
+
+Beneath, the exercises are displayed as a chronologically exhaustive list, delimited by the day on which they should be performed.
 Every exercise is contained within a rounded box which displays a bulleted list of every set and repetition that should be performed with a specified effort as the percentage of a one-rep-max.
 Furthermore, a picture of the exercise is displayed on the right of the bulleted list is used to complement it.
 Clicking on an exercise, will have it slide to the left, giving space to Google Analytics, which will be used as an aid in the visualization of the data.
