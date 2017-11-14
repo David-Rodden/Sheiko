@@ -42,10 +42,17 @@ export default class ProgressionChart extends Component {
                     chartType="AreaChart"
                     data={this.chartData}
                     options={{
+                        title: "Big Lifts Overview",
                         curveType: "function", vAxis: {title: "Effort (% of 1RM)"}, hAxis: {title: "Global Set"},
                         explorer: {
                             axis: "horizontal", actions: ['dragToZoom', 'rightClickToReset'], keepInBounds: true,
                             maxZoomIn: 4.0
+                        },
+                        colors: ['#ce0c56', '#e09d00', '#1cba63'],
+                        series: {
+                            0: {lineDashStyle: [10, 2]},
+                            1: {lineDashStyle: [10, 2]},
+                            2: {lineDashStyle: [10, 2]}
                         }
                     }}
                     graph_id="AreaChart"
