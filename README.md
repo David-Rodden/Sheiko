@@ -19,6 +19,7 @@ Below is an example of the first question of the three-question survey.
 
 A search bar is provided to search any program contained within the Sheiko program suite.
 Directly underneath, a chart overview of the selected program is displayed.
+
 The horizontal axis represents the collective sets of all exercises.
 The vertical axis represents the effort exerted with respect to the exercise performed.
 

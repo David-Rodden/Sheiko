@@ -43,7 +43,10 @@ export default class ProgressionChart extends Component {
                     data={this.chartData}
                     options={{
                         title: "Big Lifts Overview",
-                        curveType: "function", vAxis: {title: "Effort (% of 1RM)"}, hAxis: {title: "Global Set"},
+                        curveType: "function", vAxis: {title: "Effort (% of 1RM)"},
+                        hAxis: {
+                            title: "Global Set"
+                        },
                         explorer: {
                             axis: "horizontal", actions: ['dragToZoom', 'rightClickToReset'], keepInBounds: true,
                             maxZoomIn: 4.0
