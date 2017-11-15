@@ -39,7 +39,7 @@ export default class ProgressionChart extends Component {
         return (
             <div className={'my-pretty-chart-container'}>
                 <Chart.Chart
-                    chartType="AreaChart"
+                    chartType="SteppedAreaChart"
                     data={this.chartData}
                     options={{
                         title: "Big Lifts Overview",
@@ -58,7 +58,7 @@ export default class ProgressionChart extends Component {
                             2: {lineDashStyle: [10, 2]}
                         }
                     }}
-                    graph_id="AreaChart"
+                    graph_id="BigLiftChart"
                     width="100%"
                     height="200px"
                     chartEvents={[this.chartEvent]}
