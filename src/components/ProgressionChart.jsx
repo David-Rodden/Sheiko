@@ -22,7 +22,8 @@ export default class ProgressionChart extends Component {
                 const exerciseTasks = $(".ExerciseTask");
                 exerciseTasks.css("border", "");
                 const chartSelection = Chart.chart.getSelection()[0];
-                if (!chartSelection) return;
+                console.log(Chart.chart.getSelection());
+                if (!chartSelection || !chartSelection["row"]) return;
                 const selected = exerciseTasks.eq(chartSelection["row"]);
                 $("html, body").animate({
                     scrollTop: selected.offset().top
