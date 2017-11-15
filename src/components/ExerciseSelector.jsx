@@ -6,6 +6,7 @@ import selection from "../programs/SheikoSelector.json";
 export default class ExerciseSelector extends Component {
     render() {
         function logChange(val) {
+            if(!val)  return;
             sessionStorage["page"] = val.value;
             window.location.reload();
         }

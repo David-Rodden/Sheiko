@@ -5,9 +5,9 @@
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.2.1",
-    "react": "^16.0.0",
+    "react": "^16.1.1",
     "react-addons-css-transition-group": "^15.6.2",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.1.1",
     "react-google-charts": "^1.5.5",
     "react-scripts": "^1.0.17",
     "react-select": "^1.0.0-rc.10",

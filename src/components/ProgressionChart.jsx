@@ -22,12 +22,9 @@ export default class ProgressionChart extends Component {
                 const exerciseTasks = $(".ExerciseTask");
                 exerciseTasks.css("border", "");
                 const chartSelection = Chart.chart.getSelection()[0];
-                console.log(Chart.chart.getSelection());
                 if (!chartSelection || !chartSelection["row"]) return;
                 const selected = exerciseTasks.eq(chartSelection["row"]);
-                $("html, body").animate({
-                    scrollTop: selected.offset().top
-                }, "slow");
+                $("html, body").animate({scrollTop: selected.offset().top}, "slow");
                 selected.css({
                     "border": "2px solid blue",
                     "border-radius": "5px"
@@ -57,7 +54,7 @@ export default class ProgressionChart extends Component {
                             0: {lineDashStyle: [10, 2]},
                             1: {lineDashStyle: [10, 2]},
                             2: {lineDashStyle: [10, 2]}
-                        }
+                        },
                     }}
                     graph_id="BigLiftChart"
                     width="100%"
