@@ -4,7 +4,6 @@ import ProgressionChart from "./ProgressionChart";
 import surveyHelp from '../img/chart-help.png';
 import surveyHelpText from '../questionnaire/chart-help.json';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
-
 export default class ExerciseDay extends Component {
     constructor() {
         super();
