@@ -2,7 +2,9 @@
   "name": "sheiko",
   "version": "0.1.0",
   "private": true,
+  "main": "server.js",
   "engines": {
+    "npm": "9.x",
     "node": "14.x"
   },
   "dependencies": {
@@ -19,7 +21,7 @@
     "survey-react": "^0.12.36"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
