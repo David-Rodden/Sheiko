@@ -8,8 +8,8 @@ export default class ExerciseTask extends Component {
         const effort = this.props.task.effort !== 0 ? Math.round(this.props.task.effort * 100) + "%" : "a comfortable";
         return (<li className="ExerciseTask">
             {this.props.task.sets} Sets of {this.props.task.reps} reps at {effort} effort
-            <img src={weight35} style={{width: "2.3%", float: "right"}} alt=""/>
-            <img src={weight45} style={{width: "2.3%", float: "right"}} alt=""/>
+            {/*<img src={weight35} style={{width: "2.3%", float: "right"}} alt=""/>*/}
+            {/*<img src={weight45} style={{width: "2.3%", float: "right"}} alt=""/>*/}
             <ReactToolTip/>
         </li>);
     }
