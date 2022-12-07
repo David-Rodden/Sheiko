@@ -16,7 +16,7 @@
     "react-select": "^5.7.0",
     "react-toggle-display": "^2.2.1",
     "react-tooltip": "^4.5.1",
-    "react-transition-group": "github:reactjs/react-transition-group",
+    "react-transition-group": "^1.2.1",
     "survey-react": "^1.9.62"
   },
   "scripts": {
