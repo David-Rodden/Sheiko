@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import Select from 'react-select';
-import 'react-select/dist/react-select.css';
 import selection from "../programs/SheikoSelector.json";
 
 export default class ExerciseSelector extends Component {
