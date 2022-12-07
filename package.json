@@ -2,6 +2,9 @@
   "name": "sheiko",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "jquery": "^3.3.1",
