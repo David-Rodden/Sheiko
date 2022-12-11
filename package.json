@@ -28,7 +28,8 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
-    "flow-bin": "^0.194.0"
+    "flow-bin": "^0.194.0",
+    "react-addons-css-transition-group": "^15.6.2"
   },
   "browserslist": [
     ">0.2%",
