@@ -1,4 +1,5 @@
-import React, {Component} from "react";
+import React from "react";
+import Component from "react";
 import ReactToolTip from 'react-tooltip'
 import weight45 from "../img/45lbs.png";
 import weight35 from "../img/35lbs.png";
