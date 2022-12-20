@@ -3,7 +3,7 @@ import Component from "react";
 import Select from 'react-select';
 import selection from "../programs/SheikoSelector.json";
 
-export default class ExerciseSelector extends Component {
+export default class ExerciseSelector extends React.Component {
     render() {
         function logChange(val) {
             if(!val)  return;

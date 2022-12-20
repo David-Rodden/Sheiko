@@ -1,9 +1,10 @@
-import React, {Component} from "react";
+import React from "react";
+import Component from "react";
 import ExerciseType from "./ExerciseType";
 import show from '../img/show.png';
 import hide from '../img/hide.png';
 
-export default class ExerciseRoutine extends Component {
+export default class ExerciseRoutine extends React.Component {
     constructor() {
         super();
         this.state = {showExerciseType: true};

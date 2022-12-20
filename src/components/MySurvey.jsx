@@ -1,8 +1,9 @@
-import React, {Component} from "react";
+import React from "react";
+import Component from "react";
 import * as Survey from 'survey-react';
 import questions from "../questionnaire/questions.json"
 
-export default class MySurvey extends Component {
+export default class MySurvey extends React.Component {
 
     constructor() {
         super();

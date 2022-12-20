@@ -1,8 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Component from "react";
 import Chart from 'react-google-charts';
 import $ from 'jquery';
 
-export default class ProgressionChart extends Component {
+export default class ProgressionChart extends React.Component {
     constructor(props) {
         super(props);
         this.chartData = [["Global Set", "Bench", "Squat", "Deadlift"]];

@@ -1,4 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Component from "react";
 import ExerciseTask from "./ExerciseTask";
 import benchpress from '../img/benchpress.png';
 import squat from '../img/squat.png';
@@ -7,7 +8,7 @@ import abs from '../img/abs.png';
 import pushup from '../img/pushup.png';
 import other from '../img/other.png';
 
-export default class ExerciseType extends Component {
+export default class ExerciseType extends React.Component {
     render() {
         let exerciseType;
         if (this.props.routine.tasks) {

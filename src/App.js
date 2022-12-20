@@ -12,7 +12,7 @@ import ToggleDisplay from 'react-toggle-display';
  *
  * Will show questionnaire before JSON
  */
-export default class App extends Component {
+export default class App extends React.Component {
     render() {
         const surveyCompleted = localStorage.getItem("experience");
         return (
