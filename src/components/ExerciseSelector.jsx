@@ -1,5 +1,4 @@
 import React from "react";
-import Component from "react";
 import Select from 'react-select';
 import selection from "../programs/SheikoSelector.json";
 

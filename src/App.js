@@ -6,12 +6,6 @@ import MySurvey from "./components/MySurvey";
 import ExerciseSelector from "./components/ExerciseSelector";
 import ToggleDisplay from 'react-toggle-display';
 
-/**
- * Serves as the base of the Sheiko App.
- * Currently displays the Sheiko37 program info along with a graphic depicting each exercise
- *
- * Will show questionnaire before JSON
- */
 export default class App extends React.Component {
     render() {
         const surveyCompleted = localStorage.getItem("experience");

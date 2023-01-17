@@ -1,5 +1,4 @@
 import React from "react";
-import Component from "react";
 import ExerciseType from "./ExerciseType";
 import show from '../img/show.png';
 import hide from '../img/hide.png';

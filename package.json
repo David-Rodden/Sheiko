@@ -10,8 +10,10 @@
     "node": "14.x"
   },
   "dependencies": {
+    "chart.js": "^4.1.2",
     "jquery": "^3.6.1",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-google-charts": "^4.0.0",
     "react-scripts": "^2.1.3",
@@ -19,7 +21,9 @@
     "react-toggle-display": "^2.2.1",
     "react-tooltip": "^4.5.1",
     "react-transition-group": "^4.4.5",
-    "survey-react": "^1.9.62"
+    "recharts": "^2.3.2",
+    "survey-react": "^1.9.62",
+    "victory": "^36.6.8"
   },
   "scripts": {
     "start": "node server.js",

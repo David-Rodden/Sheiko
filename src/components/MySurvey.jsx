@@ -1,5 +1,4 @@
 import React from "react";
-import Component from "react";
 import * as Survey from 'survey-react';
 import questions from "../questionnaire/questions.json"
 

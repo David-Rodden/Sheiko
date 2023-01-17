@@ -1,5 +1,4 @@
 import React from 'react';
-import Component from "react";
 import ExerciseTask from "./ExerciseTask";
 import benchpress from '../img/benchpress.png';
 import squat from '../img/squat.png';
